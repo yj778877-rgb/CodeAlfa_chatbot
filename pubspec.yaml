@@ -74,14 +74,14 @@ flutter:
 
 flutter_launcher_icons:
   android: true
-  ios: false
+  ios: true
   image_path: assets/images/splash_logo_2.png
 flutter_native_splash:
-  color: "#F5E9DC"
+  color: "#C0A58A"
   image: assets/images/splash_logo_2.png
   fullscreen: true
   android_12:
-    color: "#F5E9DC"
+    color: "#C0A58A"
     image: assets/images/splash_logo_2.png
 
   # To add assets to your application, add an assets section, like this:
