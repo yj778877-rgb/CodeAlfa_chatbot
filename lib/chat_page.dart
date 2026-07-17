@@ -138,11 +138,11 @@ class _ChatScreenState extends State<ChatScreen>
   },
   {
     'patterns': ['hello', 'hi', 'hey', 'good morning', 'good evening','hii'],
-    'answer': 'Hello! Welcome to Brew & Bliss Café. How can I help you today?'
+    'answer': 'Hello! Welcome to Cafe Solstice. How can I help you today?'
   },
   {
     'patterns': ['who are you', 'introduce yourself', 'what are you', 'tell me about yourself', 'your name'],
-    'answer': "I'm the virtual assistant of Brew & Bliss Café. I'm here to help you with our menu, timings, reservations and more."
+    'answer': "I'm the virtual assistant of Cafe Solstice. I'm here to help you with our menu, timings, reservations and more."
   },
   {
     'patterns': ['Ok tell me the price of margherita pizza, and suggest me a coffee also'],
@@ -150,7 +150,7 @@ class _ChatScreenState extends State<ChatScreen>
   },
   {
     'patterns': ['Where are you located?'],
-    'answer': 'Brew & Bliss Café is located at Plot No. 22, Sadar Bazar, Ramkrishna Colony, Powai Naka, Satara, Maharashtra 415001.'
+    'answer': 'Cafe Solstice is located at Plot No. 22, Sadar Bazar, Ramkrishna Colony, Powai Naka, Satara, Maharashtra 415001.'
   },
   {
     'patterns': ['Can I call to book a table?'],
@@ -378,7 +378,7 @@ class _ChatScreenState extends State<ChatScreen>
     });
 
     const typingDelay = Duration(milliseconds: 35);
-    final fullTitle = 'Welcome to Brew & Bliss Café! 👋';
+    final fullTitle = 'Welcome to Cafe Solstice! 👋';
     final fullBody = "Hi! I'm your AI assistant. Ask me anything about our menu, timings, offers and more.";
     var titleIndex = 0;
     var bodyIndex = 0;
@@ -554,7 +554,7 @@ class _ChatScreenState extends State<ChatScreen>
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    'Brew & Bliss Café',
+                    'Cafe Solstice',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(

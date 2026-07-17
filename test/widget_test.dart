@@ -14,7 +14,7 @@ void main() {
     await tester.pumpWidget(const BrewBlissApp());
     await tester.pumpAndSettle();
 
-    expect(find.text('Brew & Bliss Café'), findsOneWidget);
+    expect(find.text('Cafe Solstice'), findsOneWidget);
     expect(find.text('FAQ Assistant'), findsOneWidget);
   });
 }

@@ -14,7 +14,7 @@ class BrewBlissApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Brew & Bliss Café',
+      title: 'Cafe Solstice',
       theme: ThemeData(
         useMaterial3: true,
         scaffoldBackgroundColor: const Color(0xFFF5EEE4),
